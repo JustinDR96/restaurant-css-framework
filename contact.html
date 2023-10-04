@@ -25,7 +25,7 @@
             src="image/logo_resto.png"
             alt=""
             width="100"
-            class="img-thumbnail rounded-4"
+            class="img-fluid rounded-4"
           />
         </a>
         <button
@@ -52,5 +52,60 @@
         </div>
       </div>
     </nav>
+
+    <div
+      class="container-fluid vh-100 d-flex flex-column align-items-center justify-content-center"
+      style="
+        background-image: url(image/salle.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    >
+      <form class="bg-white p-3 rounded-3 d-flex flex-column w-75 mt-3">
+        <div class="mb-3 d-flex flex-column">
+          <label for="name" class="form-label">Nom</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="mb-3 d-flex flex-column">
+          <label for="Prenom" class="form-label">Prénom</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="mb-3 d-flex flex-column">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="exemple@gmail.com"
+          />
+        </div>
+        <div class="mb-3 d-flex flex-column">
+          <label for="disabledSelect" class="form-label"
+            >Sujet du message</label
+          >
+          <select id="disabledSelect" class="form-select">
+            <option>Reservation</option>
+            <option>Recommandation</option>
+            <option>Plainte</option>
+          </select>
+          <div class="form-control-md">
+            <textarea
+              class="form-control mt-2"
+              placeholder="message"
+            ></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <footer class="bg-black text-white text-center py-1">
+      <div class="container">
+        <p>2023 Burger Fusion &copy;</p>
+      </div>
+    </footer>
   </body>
 </html>
