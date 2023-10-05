@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Bangers", cursive;
+  min-height: 100vh;
+  font-size: 18px;
+  background-image: url(assets/image/salle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
