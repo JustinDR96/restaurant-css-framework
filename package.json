@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "homepage": "https://JustinDR96.github.io/restaurant-css-framework/"
+    "homepage": "https://JustinDR96.github.io/{repo-name}/"
   },
   "keywords": [],
   "author": "",
