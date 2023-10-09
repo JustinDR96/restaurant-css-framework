@@ -1,6 +1,6 @@
 # Bienvenue sur mon site de restaurant Burger Fusion !
 
-![BurgerFusion](/restaurant-css-framework/images/logo_resto.png)
+![BurgerFusion](/images/logo_resto.png)
 
 ## Lien du site
 
@@ -18,18 +18,18 @@ Oui, il est responsive!
 
 ## Screenshots
 
-![screenshot1](/restaurant-css-framework/Readme/Welcome.png)
+![screenshot1](/Readme/Welcome.png)
 
-![screenshot2](/restaurant-css-framework/Readme/Menu.png)
+![screenshot2](/Readme/Menu.png)
 
-![screenshot3](/restaurant-css-framework/Readme/pictures.png)
+![screenshot3](/Readme/pictures.png)
 
-![screenshot4](/restaurant-css-framework/Readme/pictures2.png)
+![screenshot4](/Readme/pictures2.png)
 
-![screenshot5](/restaurant-css-framework/Readme/pictures3.png)
+![screenshot5](/Readme/pictures3.png)
 
-![screenshot6](/restaurant-css-framework/Readme/Pictures4.png)
+![screenshot6](/Readme/Pictures4.png)
 
-![screenshot6](/restaurant-css-framework/Readme/Restaurant.png)
+![screenshot6](/Readme/Restaurant.png)
 
-![screenshot6](/restaurant-css-framework/Readme/Contact.png)
+![screenshot6](/Readme/Contact.png)
