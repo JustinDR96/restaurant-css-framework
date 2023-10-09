@@ -18,14 +18,18 @@ Oui, il est responsive!
 
 ## Screenshots
 
-![screenshot1](https://i.imgur.com/BxP73v9.png)
+![screenshot1](/restaurant-css-framework/Readme/Welcome.png)
 
-![screenshot2](https://i.imgur.com/AyQYan5.png)
+![screenshot2](/restaurant-css-framework/Readme/menu.png)
 
-![screenshot3](https://i.imgur.com/AyQYan5.png)
+![screenshot3](/restaurant-css-framework/Readme/pictures.png)
 
-![screenshot4](https://i.imgur.com/AyQYan5.png)
+![screenshot4](/restaurant-css-framework/Readme/pictures2.png)
 
-![screenshot5](https://i.imgur.com/AyQYan5.png)
+![screenshot5](/restaurant-css-framework/Readme/pictures3.png)
 
-![screenshot6](https://i.imgur.com/AyQYan5.png)
+![screenshot6](/restaurant-css-framework/Readme/pictures4.png)
+
+![screenshot6](/restaurant-css-framework/Readme/Restaurant.png)
+
+![screenshot6](/restaurant-css-framework/Readme/Contact.png)
