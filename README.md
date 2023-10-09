@@ -1,10 +1,10 @@
-# Bienvenue sur mon site de restaurant Burger Fusion !
-
-![BurgerFusion](/images/logo_resto.png)
-
 ## Lien du site
 
 [https://justindr96.github.io/restaurant-css-framework/](https://justindr96.github.io/restaurant-css-framework/)
+
+# Bienvenue sur mon site de restaurant Burger Fusion !
+
+![BurgerFusion](/images/logo_resto.png)
 
 ## Langages utilisés ?
 
