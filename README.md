@@ -20,7 +20,7 @@ Oui, il est responsive!
 
 ![screenshot1](/restaurant-css-framework/Readme/Welcome.png)
 
-![screenshot2](/restaurant-css-framework/Readme/menu.png)
+![screenshot2](/restaurant-css-framework/Readme/Menu.png)
 
 ![screenshot3](/restaurant-css-framework/Readme/pictures.png)
 
@@ -28,7 +28,7 @@ Oui, il est responsive!
 
 ![screenshot5](/restaurant-css-framework/Readme/pictures3.png)
 
-![screenshot6](/restaurant-css-framework/Readme/pictures4.png)
+![screenshot6](/restaurant-css-framework/Readme/Pictures4.png)
 
 ![screenshot6](/restaurant-css-framework/Readme/Restaurant.png)
 
