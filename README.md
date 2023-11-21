@@ -19,21 +19,3 @@ Oui, il est responsive!
 ## Screenshots
 
 ![screenshot1](/Readme/Welcome.png)
-
-![screenshot2](/Readme/Menu.png)
-
-![screenshot3](/Readme/pictures.png)
-
-![screenshot4](/Readme/pictures2.png)
-
-![screenshot5](/Readme/pictures3.png)
-
-![screenshot6](/Readme/Pictures4.png)
-
-![screenshot6](/Readme/Restaurant.png)
-
-![screenshot6](/Readme/Contact.png)
-
-# Source Image
-
-[Unsplash.fr](https://unsplash.com/fr)

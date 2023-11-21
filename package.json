@@ -1,0 +1,20 @@
+{
+  "name": "restaurant-css-framework",
+  "version": "1.0.0",
+  "description": "[https://justindr96.github.io/restaurant-css-framework/](https://justindr96.github.io/restaurant-css-framework/)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "helmet-csp": "^3.4.0",
+    "method-override": "^3.0.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.1"
+  }
+}
