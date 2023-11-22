@@ -8,7 +8,11 @@ app.set("view engine", "ejs");
 
 app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static(path.join(__dirname, "/")));
+// Assurez-vous que le chemin vers backOffice.css est correct
+app.use(
+  "/admin",
+  express.static(path.join(__dirname, "public"), { type: "text/css" })
+);
 
 mongoose.connect(
   "mongodb+srv://justin_2:123456789.96@cluster0.apidfb6.mongodb.net/?retryWrites=true&w=majority"
