@@ -16,6 +16,7 @@
     "helmet-csp": "^3.4.0",
     "method-override": "^3.0.0",
     "mongodb": "^6.3.0",
-    "mongoose": "^8.0.1"
+    "mongoose": "^8.0.1",
+    "node": "^21.1.0"
   }
 }

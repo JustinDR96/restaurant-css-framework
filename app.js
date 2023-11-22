@@ -1,4 +1,3 @@
-// app.js
 const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path"); // Importer le module "path"
@@ -8,11 +7,7 @@ app.set("view engine", "ejs");
 
 app.use(express.urlencoded({ extended: true }));
 
-// Assurez-vous que le chemin vers backOffice.css est correct
-app.use(
-  "/admin",
-  express.static(path.join(__dirname, "public"), { type: "text/css" })
-);
+app.use(express.static(path.join(__dirname, "/")));
 
 mongoose.connect(
   "mongodb+srv://justin_2:123456789.96@cluster0.apidfb6.mongodb.net/?retryWrites=true&w=majority"
@@ -41,8 +36,6 @@ app.get("/admin/messages", async (req, res) => {
 const methodOverride = require("method-override");
 app.use(methodOverride("_method"));
 
-// ...
-
 app.delete("/admin/messages/:id", async (req, res) => {
   const messageId = req.params.id;
   try {
@@ -53,7 +46,9 @@ app.delete("/admin/messages/:id", async (req, res) => {
     res.send("Error deleting message.");
   }
 });
-
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "/")); // Utilisez path.join pour définir le chemin correct
+});
 app.get("/contact.html", (req, res) => {
   res.sendFile(path.join(__dirname, "/contact.html")); // Utilisez path.join pour définir le chemin correct
 });
@@ -62,7 +57,6 @@ app.post("/submit", async (req, res) => {
 
   try {
     await Message.create({ first_name, last_name, email, subject, message });
-    res.redirect("/index.html"); // Redirect to the home page or another appropriate page after submission
   } catch (error) {
     console.error(error);
     res.send("Error submitting message.");
