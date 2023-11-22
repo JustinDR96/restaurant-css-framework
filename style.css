@@ -22,8 +22,3 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-img {
-  width: 320px;
-  height: 220px;
-  object-fit: contain;
-}

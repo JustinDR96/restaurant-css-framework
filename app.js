@@ -22,6 +22,9 @@ const messageSchema = new mongoose.Schema({
 });
 
 const Message = mongoose.model("Message", messageSchema);
+app.get("/restaurant-css-framework/style.css", (req, res) => {
+  res.setHeader("Content-Type", "text/css");
+});
 
 app.get("/admin/messages", async (req, res) => {
   try {
@@ -46,12 +49,15 @@ app.delete("/admin/messages/:id", async (req, res) => {
     res.send("Error deleting message.");
   }
 });
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/")); // Utilisez path.join pour définir le chemin correct
 });
+
 app.get("/contact.html", (req, res) => {
   res.sendFile(path.join(__dirname, "/contact.html")); // Utilisez path.join pour définir le chemin correct
 });
+
 app.post("/submit", async (req, res) => {
   const { last_name, first_name, email, subject, message } = req.body;
 
